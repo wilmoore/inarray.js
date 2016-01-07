@@ -15,7 +15,7 @@ npm install inarray --save
 
 ## API Example
 
-###### Pointful
+###### Basic
 
 ```js
 var inarray = require('inarray')
