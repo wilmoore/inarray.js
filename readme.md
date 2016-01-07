@@ -39,7 +39,7 @@ var list = ['a', 'b', 'c']
 
 ## API
 
-### `inarray(n, list)`
+### `inarray(list, item)`
 
 ###### arguments
 
