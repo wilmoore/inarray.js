@@ -1,7 +1,7 @@
 {
   "name": "inarray",
   "description": "Curried predicate which checks that a value exists in an array. Generally faster than `indexOf` across JS engines.",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": "Wil Moore III <wil.moore@wilmoore.com>",
   "bugs": {
     "url": "https://github.com/wilmoore/inarray.js/issues"
