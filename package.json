@@ -1,6 +1,6 @@
 {
   "name": "inarray",
-  "description": "Checks that a value exists in an array and returns a boolean result. Generally faster than `indexOf` across JS engines.",
+  "description": "Curried predicate which checks that a value exists in an array. Generally faster than `indexOf` across JS engines.",
   "version": "0.1.2",
   "author": "Wil Moore III <wil.moore@wilmoore.com>",
   "bugs": {

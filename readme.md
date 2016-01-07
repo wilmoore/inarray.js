@@ -1,5 +1,5 @@
 # inarray
-> Checks that a value exists in an array and returns a boolean result. Generally faster than `indexOf` across JS engines.
+> Curried predicate which checks that a value exists in an array. Generally faster than `indexOf` across JS engines.
 
 [![Build Status](http://img.shields.io/travis/wilmoore/inarray.js.svg)](https://travis-ci.org/wilmoore/inarray.js) [![Code Climate](https://codeclimate.com/github/wilmoore/inarray.js/badges/gpa.svg)](https://codeclimate.com/github/wilmoore/inarray.js) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
@@ -31,9 +31,9 @@ inarray(['a', 'b', 'c'], 'z')
 
 ```js
 var inarray = require('inarray')
-var list = ['a', 'b', 'c']
+var include = inarray(['a', 'b', 'c'])
 
-['a', 'c'].every(inarray(list))
+['a', 'c'].every(include)
 //=> true
 ```
 
